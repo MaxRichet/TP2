@@ -10,15 +10,15 @@ class CompteBancaire {
     }
 
     public function depot($somme) {
-        return $this->value + $somme;
+        return $this->value = $this->value + $somme;
     }
 
     public function retrait($somme) {
-        return $this->value - $somme;
+        return $this->value = $this->value - $somme;
     }
 
     public function affiche() {
-        return "Le solde de {$this->name}, est de {$this->value} euros";
+        echo "Le solde de {$this->name}, est de {$this->value} euros";
     }
 }
 ?>

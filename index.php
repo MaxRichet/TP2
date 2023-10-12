@@ -23,6 +23,7 @@ $compte2->depot(25);
     <title>Compte Bancaire</title>
 </head>
 <body>
+    <h1>Compte Bancaire</h1>
     <p><?php $compte1->affiche(); ?></p><br>
     <p><?php $compte2->affiche(); ?></p>
 </body>
